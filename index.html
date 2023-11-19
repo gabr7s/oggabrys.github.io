@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta content="https://embed.com/this-is-the-site-url" property="og:url" />
+    <meta content="https://cdn.discordapp.com/avatars/1154302244980801587/5e5053b2410ae15d64e4ab05bee515c6.webp?size=1024" property="og:image" />
+    <meta content="#ff3032" data-react-helmet="true" name="theme-color" />
+    <link rel="stylesheet" href="./index.css" type="text/css">
+    <link rel="icon" href="./Assets/Images/pfp.png">
+    <title>I'm dead</title>
+</head>
+<body>   
+    <div class="navbar">
+        <a href="https://Im-dead.xyz/" class="logo">I'm<span class="czerwone"> dead</span></a>
+        <div class="nav-links">
+            <ul>
+                <li><a href="https://Im-dead.xyz/">Strona główna</a></li>
+                <li><a href="https://discord.gg/jRRPennFsx">Discord</a></li>
+                <li><a href="./content/Projects/project.html">Projekty</a></li>
+            </ul>
+        </div>
+        <div class="hamburger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="text">
+            <h1 class="tekst">Troszke o mnie...</h1>
+            <p>Cześć, jestem Kuba. Inni znają mnie pod pseudonimem I'm dead. Jestem młodym chłopakiem który posiada wiele zaniteresowań a między inymi programowanie. 
+                Uczę się programowania od 2 lat takich języków jak JS Java Html CSS i myślę ze wychodzi mi to nieźle. W HTML'u oraz CSS'ie piszę od pół roku. 
+                Lubię pisać boty discord czy to na zamówienie czy 4fun. Jestem również developerem nowego bota Nightly oraz właścicielem projektu MagicCode na którym możesz zamówić różne usługi lub poprosić o pomoc naszą społeczność.
+            </p>  
+        </div>
+    </div>
+
+    <div class="line2"></div>
+
+    <div class="learnings">
+        <div class="title">
+            <h2><span class="czerwone">Aktualnie się ucze...</span></h2>
+        </div>
+
+        <div class="box">
+
+            <div class="card">
+                <h5>JavaScript</h5>
+                <div class="pra">
+                    <p>Najprostsza definicja brzmi następująco: to język programowania, który umożliwia wdrożenie na stronie internetowej skomplikowanych elementów, dzięki którym ta strona może nie tylko wyświetlać statyczne informacje, ale również obsługiwać zmianę treści adekwatnie do sytuacji, wyświetlać interaktywne mapy, animacje, grafiki 2D/3D, wideo itd.</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <h5>Java</h5>
+                <div class="pra">
+                    <p>Java to wysokopoziomowy język programowania najczęściej wykorzystywany do tworzenia backendu aplikacji internetowych. Język ten jest łatwo przenośny, dzięki interpretowaniu przez wieloplatformową maszynę wirtualną Java Virtual Machine. Można stwierdzić, że Java jest językiem preferowanym przez korporacje i duże firmy.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="line3"></div>
+
+    <div class="footer">
+        <div class="footer-tekst">
+            Website created by <span class="czerwone">imdead2115</span>
+        </div>
+    </div>
+        
+
+    <script>
+        const menuHamburger = document.querySelector(".hamburger")
+        const navLinks = document.querySelector(".nav-links")
+ 
+        menuHamburger.addEventListener('click',()=>{
+        navLinks.classList.toggle('mobile-menu')
+        })
+    </script>
+</body>
+</html>
